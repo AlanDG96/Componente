@@ -3,11 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlUsuarioCronometro", "ControlUsuarioCronometro\ControlUsuarioCronometro.csproj", "{AB67DCC2-A054-475E-BA2A-A47059B05A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca", "Biblioteca\Biblioteca.csproj", "{78C90CAF-9FA2-4C2E-B3A0-365A061B5824}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB67DCC2-A054-475E-BA2A-A47059B05A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB67DCC2-A054-475E-BA2A-A47059B05A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB67DCC2-A054-475E-BA2A-A47059B05A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB67DCC2-A054-475E-BA2A-A47059B05A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C90CAF-9FA2-4C2E-B3A0-365A061B5824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C90CAF-9FA2-4C2E-B3A0-365A061B5824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C90CAF-9FA2-4C2E-B3A0-365A061B5824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C90CAF-9FA2-4C2E-B3A0-365A061B5824}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7C73D7D5-CA0B-485F-9F4F-D91AC5B8310C}
+		SolutionGuid = {F452CC41-3163-433F-A569-6020090695F5}
 	EndGlobalSection
 EndGlobal
